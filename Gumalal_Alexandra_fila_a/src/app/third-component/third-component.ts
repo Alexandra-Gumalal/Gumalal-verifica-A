@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-
+import { FourthComponent } from '../fourth-component/fourth-component';
 @Component({
   selector: 'app-third-component',
-  imports: [],
+  imports: [FourthComponent],
   templateUrl: './third-component.html',
   styleUrl: './third-component.css',
 })
