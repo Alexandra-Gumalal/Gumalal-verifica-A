@@ -9,4 +9,5 @@ import { RouterOutlet } from '@angular/router';
 })
 export class App {
   protected readonly title = signal('Gumalal_Alexandra_fila_a');
+  name = 'app';
 }
